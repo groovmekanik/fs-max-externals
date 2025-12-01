@@ -2,7 +2,7 @@
 
 ### Overview
 
-This repository is the beginning of a collection of open-source Max externals by Robert K from Fixation Studios, also known as GMaudio.Over time, this repository is intended to grow into a proper Max Package containing multiple dynamics, filter and utility externals.
+This repository is the beginning of a collection of open-source Max externals by Robert K from Fixation Studios, also known as GMaudio. Over time, this repository is intended to grow into a proper Max Package containing multiple dynamics, filter and utility externals.
 
 For now it contains a single external, `fs.squeeze~`, which is a native Max port of the **GMaudio Squeeze 2.0** upward compressor/limiter, originally released as a Max for Live device for Ableton Live [(Product page)](https://robertkgm.gumroad.com/l/gma-squeeze). I've had mutliple requests for this as an external and can't wait to see how people will use it in thier projects.
 
