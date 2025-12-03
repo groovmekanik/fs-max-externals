@@ -28,6 +28,8 @@ Based on the original [GMaudio Squeeze device](https://robertkgm.gumroad.com/l/g
 
 These files are already arranged in a Max Package–friendly layout, so you can drop or clone this repo directly into your Max Packages folder.
 
+_Note: Currently the Help patcher uses abl.objects only available in Max 9.0 and above. Submit an issue on Github if this is a problem for you._
+
 ### Installation (as a Max Package)
 
 To use this repository like a Max Package:
