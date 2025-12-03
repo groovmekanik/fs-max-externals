@@ -35,14 +35,8 @@ To use this repository like a Max Package:
 1. **Locate your Max Packages folder**
    - **macOS**: `~/Documents/Max 8/Packages/`
    - **Windows**: `C:\Users\<username>\Documents\Max 8\Packages\`
-2. **Clone or copy the repo**
-   - Option A (recommended): clone this repo directly into your Packages folder:
-     ```bash
-     cd "~/Documents/Max 8/Packages"
-     git clone https://github.com/<your-github-username>/fs-max-externals.git
-     ```
-     (Adjust the path for Windows if needed.)
-   - Option B: download the repo as a `.zip` from GitHub and extract it into the `Packages` folder.
+2. **Install the Package**
+   - download this repo as a `.zip` from the Release section on GitHub, and extract it into the `Packages` folder.
 3. **Restart Max**
    - Relaunch Max so it rescans packages.
 4. **Verify installation**
@@ -50,8 +44,6 @@ To use this repository like a Max Package:
    - If the external is installed correctly, Max will autocomplete and instantiate the object.
 
 Once installed, Max will also see the help and reference files bundled in this package.
-
-#### /I will add a .zip package to download, instead of this the cloning method stated above/
 
 ### Using `fs.squeeze~` in Max
 
@@ -66,7 +58,7 @@ General usage notes:
 - The **Floor** and **Ceiling** style controls effectively define the upward compression window: material above Floor is pushed toward the **Ceiling**, while content below **Floor** is left untouched.
 - **Time** controls envelope release behaviour, from fast, aggressive upward compression to slower, quasi-normalization.
 - **Style** morphs between single-band and multi-band behaviour, allowing you to dial in how broadband or spectral the effect should be.
-- **Dry/Wet(Mix)** lets you easily transition between parallel upward compression and full-on processed output.
+- **Mix** lets you easily transition between parallel upward compression and full-on processed output.
 
 For deeper background on the design philosophy and musical applications, see the original Squeeze documentation on Gumroad [(GMaudio Squeeze 2.0)](https://robertkgm.gumroad.com/l/gma-squeeze) and the detailed article on Fixation Studios [(“Squeeze Every Last Drop”)](https://fixationstudios.com.au/gmaudio-squeeze-every-last-drop/).
 

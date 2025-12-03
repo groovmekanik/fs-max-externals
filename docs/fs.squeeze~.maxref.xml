@@ -12,7 +12,7 @@
 </methodlist>
 <attributelist>
 <attribute name="style_blend" get="1" set="1" size="1" type="float64">
-<digest>Morph between single-band and multiband styles.</digest>
+<digest>Morph between single-band and multi-band operation.</digest>
 <description>Morphs between single band and multiband operation. Multiband operation has been tuned to provide a flat frequency response with slight mid band attenuation and bass boost, similar to the original OTT. Multiband processing may exceed the Ceiling.</description>
 </attribute>
 <attribute name="floor_dB" get="1" set="1" size="1" type="float64">
@@ -31,9 +31,9 @@
 <digest>Amount of upward compression applied.</digest>
 <description>Adjusts the amount of processing, similar to a ratio control on a typical compressor.</description>
 </attribute>
-<attribute name="dry_wet" get="1" set="1" size="1" type="float64">
-<digest>Balance between processed and dry signal.</digest>
-<description>Adjusts the balance between the processed and unprocessed signal. This is called 'Mix' in the MaxForLive device.</description>
+<attribute name="mix" get="1" set="1" size="1" type="float64">
+<digest>Balance between processed and unprocessed signal.</digest>
+<description>Adjusts the balance between the processed and unprocessed signal.</description>
 </attribute>
 <attribute name="ceiling_dB" get="1" set="1" size="1" type="float64">
 <digest>Target level the processed signal is pushed toward.</digest>
