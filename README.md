@@ -6,7 +6,7 @@ This repository is the beginning of a collection of Max externals by Robert K fr
 
 For now it contains a single external, `fs.squeeze~`, which is a native Max port of the [GMaudio Squeeze 2.0](https://robertkgm.gumroad.com/l/gma-squeeze) upward compressor/limiter, originally released as a Max for Live device for Ableton Live. I've had mutliple requests for this as an external and can't wait to see how people will use it in thier projects.
 
-`fs.squeeze~` is a multi-band upward compressor/limiter that can do everything from subtle loudness enhancement and transient clarification to total sonic annihilation. It has been designed for transparent, punchy dynamics control with a unique low-distortion release characteristic and dynamic-phase crossovers that allow parallel-style processing without phasey artifacts, as described in more detail in the Squeeze article on Fixation Studios [(“Article: Squeeze Every Last Drop”)](https://fixationstudios.com.au/gmaudio-squeeze-every-last-drop/).
+`fs.squeeze~` is a multi-band upward compressor/limiter that can do everything from subtle loudness enhancement to total sonic annihilation. It has been designed for transparent, punchy dynamics control with a unique low-distortion release characteristic and dynamic-phase crossovers that allow parallel-style processing without phasey artifacts, as described in more detail in the Squeeze article on Fixation Studios [(“Article: Squeeze Every Last Drop”)](https://fixationstudios.com.au/gmaudio-squeeze-every-last-drop/).
 
 ### Features (`fs.squeeze~`)
 
